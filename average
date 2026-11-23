@@ -15,10 +15,16 @@ if len(sys.argv) == 2:
         print("数字を入力してください",file=sys.stderr)
         sys.exit(1)
 
+if avg_num <= 0:
+    print("正の数を入力してください",file=sys.stderr)
+    sys.exit(1)
+
+
 data = []
 for line in sys.stdin:
     data.append(float(line))
     if len(data) > avg_num:
         data = data[1:]
-    data_avg = sum(data) / len(data)
+        data_avg = sum(data) / len(data)
     print(data_avg)
+
