@@ -7,6 +7,7 @@ import sys
 
 avg_num = 5
 
+
 if len(sys.argv) == 2:
     try:
         avg_num = int(sys.argv[1])
@@ -14,6 +15,10 @@ if len(sys.argv) == 2:
         print("数字を入力してください",file=sys.stderr)
         sys.exit(1)
 
+data = []
 for line in sys.stdin:
-    date = line.strip()
-    print(date)
+    data.append(float(line))
+    if len(data) > avg_num:
+        data = data[1:]
+    data_avg = sum(data) / len(data)
+    print(data_avg)
