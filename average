@@ -13,4 +13,7 @@ if len(sys.argv) == 2:
     except ValueError:
         print("数字を入力してください",file=sys.stderr)
         sys.exit(1)
-print(avg_num)
+
+for line in sys.stdin:
+    date = line.strip()
+    print(date)
