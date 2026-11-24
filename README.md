@@ -2,6 +2,7 @@
 
 ![test](https://github.com/hiragi-yata/average/actions/workflows/test.yml/badge.svg)
 
+標準入力の数字の直近N個の平均を出力するコマンドです。
 
 ## インストール手順
 ```
@@ -64,5 +65,5 @@ $ ./average
 - © 2026 Shuya Yata
 
 ## 謝辞
-- 本リポジトリのコード、テスト、および設定ファイルの作成にあたり、下記の講義資料を参考にしました
+- 本リポジトリのコード、テスト、および設定ファイルの作成にあたり、下記の講義資料(CC BY-SA 4.0 by Taro Suzuki)を参考にしました
   - https://github.com/tarolab-cit/lectures/tree/main/robosys2026
