@@ -62,3 +62,7 @@ $ ./average
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 - © 2026 Shuya Yata
+
+## 謝辞
+- 本リポジトリのコード、テスト、および設定ファイルの作成にあたり、下記の講義資料を参考にしました
+  - https://github.com/tarolab-cit/lectures/tree/main/robosys2026
